@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar.fixed-top.navbar-light
+      .container
+        a.navbar-brand(href="/")
+          .navbar-brand-button
+            img.navbar-brand-image(src="http://ubuntu-touch.io/img/robot-t.png")
+          | How can I help Ubuntu Touch?
+    .container.content
+      block content
+      .footer.mx-auto.fixed-bottom.text-center
+        | This is a bootstrap v4 + pug experiment, made on the move on a Pinebook by mariogrip
+
+  script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js')

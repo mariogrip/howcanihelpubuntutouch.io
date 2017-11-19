@@ -1,0 +1,35 @@
+{
+  "name": "Development & Infra",
+  "items": [
+    {
+      "name": "Webbrowser-app",
+      "title": "I would like to hack on",
+      "tagline": "Ubuntu touch Web browser",
+      "url": "https://github.com/ubports/webbrowser-app"
+    },
+    {
+      "name": "Dialer-app",
+      "title": "I would like to hack on",
+      "tagline": "Ubuntu touch dialer application",
+      "url": "https://github.com/ubports/dialer-app"
+    },
+    {
+      "name": "System-settings",
+      "title": "I would like to hack on",
+      "tagline": "Ubuntu touch system settings and tweeks",
+      "url": "https://github.com/ubports/system-settings"
+    },
+    {
+      "name": "Filemanager-app",
+      "title": "I would like to hack on",
+      "tagline": "Ubuntu touch file manager",
+      "url": "https://github.com/ubports/filemanager-app"
+    },
+    {
+      "name": "Calendar-app",
+      "title": "I would like to hack on",
+      "tagline": "Ubuntu touch Calendar application",
+      "url": "https://github.com/ubports/calendar-app"
+    }
+  ]
+}

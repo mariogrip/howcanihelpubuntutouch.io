@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .text-center.text-muted
+    if title
+      h2= title
+    else
+      h2 I would like to help with
+  .text-center
+    h1(style="font-size: 50pt;")= name
+  if tagline
+    .text-center.text-muted
+      p(style="font-size: 14pt;")= tagline
+  .text-center(style="margin-top: 20px;")
+    .row
+      .col-sm
+      .col-sm
+        if url
+          a.btn.btn-outline-success.btn-lg.btn-block(type="button", href=url) Yes!
+        else
+          a.btn.btn-outline-success.btn-lg.btn-block(type="button", href="/"+link) Tell me more!
+      .col-sm 
+        a.btn.btn-outline-danger.btn-lg.btn-block(type="button", href="/"+next) Nah
+      .col-sm
+    if parent
+      .row(style="margin-top: 20px")
+        .col-sm
+        .col-sm
+          a.btn.btn-outline-warning.btn-lg.btn-block(type="button", href="/"+parent) Take me back
+        .col-sm

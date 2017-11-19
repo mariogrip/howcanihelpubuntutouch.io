@@ -1,0 +1,35 @@
+{
+  "name": "Language & Translation",
+  "items": [
+    {
+      "name": "Webbrowser-app",
+      "tagline": "Ubuntu touch Web browser",
+      "title": "I would like to translate",
+      "url": "https://translate.ubports.com/projects/ubports/webbrowser-app"
+    },
+    {
+      "name": "Dialer-app",
+      "tagline": "Ubuntu touch dialer application",
+      "title": "I would like to translate",
+      "url": "https://translate.ubports.com/projects/ubports/dialer-app"
+    },
+    {
+      "name": "System-settings",
+      "tagline": "Ubuntu touch system settings and tweeks",
+      "title": "I would like to translate",
+      "url": "https://translate.ubports.com/projects/ubports/system-settings"
+    },
+    {
+      "name": "Filemanager-app",
+      "tagline": "Ubuntu touch file manager",
+      "title": "I would like to translate",
+      "url": "https://translate.ubports.com/projects/ubports/filemanager-app"
+    },
+    {
+      "name": "Calendar-app",
+      "tagline": "Ubuntu touch Calendar application",
+      "title": "I would like to translate",
+      "url": "https://translate.ubports.com/projects/ubports/calendar-app"
+    }
+  ]
+}
