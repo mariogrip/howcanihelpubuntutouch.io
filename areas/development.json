@@ -2,6 +2,11 @@
   "name": "Development & Infra",
   "items": [
     {
+      "name": "Bugs",
+      "title": "I would like to fix",
+      "internal": "bugs"
+    },
+    {
       "name": "Webbrowser-app",
       "title": "I would like to hack on",
       "tagline": "Ubuntu touch Web browser",
